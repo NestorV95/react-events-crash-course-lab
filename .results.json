@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 2,
+    "pending": 0,
+    "failures": 3,
+    "start": "2021-04-28T01:38:57.967Z",
+    "end": "2021-04-28T01:38:58.016Z",
+    "duration": 49
+  },
+  "tests": [
+    {
+      "title": "invokes the `drawChromeBoiAtCoords` method within `handleMouseMove`, passing the captured x and y values of the mouse from the event",
+      "fullTitle": "<ChromeBoisDomain /> invokes the `drawChromeBoiAtCoords` method within `handleMouseMove`, passing the captured x and y values of the mouse from the event",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has an event listener for clicks on the <canvas> element that triggers `toggleCycling`",
+      "fullTitle": "<ChromeBoisDomain /> has an event listener for clicks on the <canvas> element that triggers `toggleCycling`",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has an event listener for key presses on the <canvas> element that triggers `resize`",
+      "fullTitle": "<ChromeBoisDomain /> has an event listener for key presses on the <canvas> element that triggers `resize`",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: event.preventDefault is not a function\n    at ChromeBoisDomain._this.handleKeyPress (src/ChromeBoisDomain.js:26:11)\n    at /Users/nestor/Desktop/flatiron/react-events-crash-course-lab/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:332:27\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:94:16)\n    at Object.simulateEvent (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:328:61)\n    at ShallowWrapper.<anonymous> (node_modules/enzyme/build/ShallowWrapper.js:932:57)\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1620:25)\n    at ShallowWrapper.simulate (node_modules/enzyme/build/ShallowWrapper.js:929:21)\n    at Context.<anonymous> (test/ChromeBoisDomainTest.js:51:25)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "event.preventDefault is not a function"
+      }
+    },
+    {
+      "title": "when the 'a' key is pressed, `resize` is invoked with the argument of '+'",
+      "fullTitle": "<ChromeBoisDomain /> when the 'a' key is pressed, `resize` is invoked with the argument of '+'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: event.preventDefault is not a function\n    at ChromeBoisDomain._this.handleKeyPress (src/ChromeBoisDomain.js:26:11)\n    at /Users/nestor/Desktop/flatiron/react-events-crash-course-lab/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:332:27\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:94:16)\n    at Object.simulateEvent (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:328:61)\n    at ShallowWrapper.<anonymous> (node_modules/enzyme/build/ShallowWrapper.js:932:57)\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1620:25)\n    at ShallowWrapper.simulate (node_modules/enzyme/build/ShallowWrapper.js:929:21)\n    at Context.<anonymous> (test/ChromeBoisDomainTest.js:64:25)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "event.preventDefault is not a function"
+      }
+    },
+    {
+      "title": "when the 's' key is pressed, `resize` is invoked with the argument of '-'",
+      "fullTitle": "<ChromeBoisDomain /> when the 's' key is pressed, `resize` is invoked with the argument of '-'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: event.preventDefault is not a function\n    at ChromeBoisDomain._this.handleKeyPress (src/ChromeBoisDomain.js:26:11)\n    at /Users/nestor/Desktop/flatiron/react-events-crash-course-lab/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:332:27\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:94:16)\n    at Object.simulateEvent (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:328:61)\n    at ShallowWrapper.<anonymous> (node_modules/enzyme/build/ShallowWrapper.js:932:57)\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1620:25)\n    at ShallowWrapper.simulate (node_modules/enzyme/build/ShallowWrapper.js:929:21)\n    at Context.<anonymous> (test/ChromeBoisDomainTest.js:78:25)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "event.preventDefault is not a function"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "has an event listener for key presses on the <canvas> element that triggers `resize`",
+      "fullTitle": "<ChromeBoisDomain /> has an event listener for key presses on the <canvas> element that triggers `resize`",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: event.preventDefault is not a function\n    at ChromeBoisDomain._this.handleKeyPress (src/ChromeBoisDomain.js:26:11)\n    at /Users/nestor/Desktop/flatiron/react-events-crash-course-lab/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:332:27\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:94:16)\n    at Object.simulateEvent (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:328:61)\n    at ShallowWrapper.<anonymous> (node_modules/enzyme/build/ShallowWrapper.js:932:57)\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1620:25)\n    at ShallowWrapper.simulate (node_modules/enzyme/build/ShallowWrapper.js:929:21)\n    at Context.<anonymous> (test/ChromeBoisDomainTest.js:51:25)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "event.preventDefault is not a function"
+      }
+    },
+    {
+      "title": "when the 'a' key is pressed, `resize` is invoked with the argument of '+'",
+      "fullTitle": "<ChromeBoisDomain /> when the 'a' key is pressed, `resize` is invoked with the argument of '+'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: event.preventDefault is not a function\n    at ChromeBoisDomain._this.handleKeyPress (src/ChromeBoisDomain.js:26:11)\n    at /Users/nestor/Desktop/flatiron/react-events-crash-course-lab/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:332:27\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:94:16)\n    at Object.simulateEvent (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:328:61)\n    at ShallowWrapper.<anonymous> (node_modules/enzyme/build/ShallowWrapper.js:932:57)\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1620:25)\n    at ShallowWrapper.simulate (node_modules/enzyme/build/ShallowWrapper.js:929:21)\n    at Context.<anonymous> (test/ChromeBoisDomainTest.js:64:25)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "event.preventDefault is not a function"
+      }
+    },
+    {
+      "title": "when the 's' key is pressed, `resize` is invoked with the argument of '-'",
+      "fullTitle": "<ChromeBoisDomain /> when the 's' key is pressed, `resize` is invoked with the argument of '-'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: event.preventDefault is not a function\n    at ChromeBoisDomain._this.handleKeyPress (src/ChromeBoisDomain.js:26:11)\n    at /Users/nestor/Desktop/flatiron/react-events-crash-course-lab/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:332:27\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:94:16)\n    at Object.simulateEvent (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:328:61)\n    at ShallowWrapper.<anonymous> (node_modules/enzyme/build/ShallowWrapper.js:932:57)\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1620:25)\n    at ShallowWrapper.simulate (node_modules/enzyme/build/ShallowWrapper.js:929:21)\n    at Context.<anonymous> (test/ChromeBoisDomainTest.js:78:25)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "event.preventDefault is not a function"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "invokes the `drawChromeBoiAtCoords` method within `handleMouseMove`, passing the captured x and y values of the mouse from the event",
+      "fullTitle": "<ChromeBoisDomain /> invokes the `drawChromeBoiAtCoords` method within `handleMouseMove`, passing the captured x and y values of the mouse from the event",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has an event listener for clicks on the <canvas> element that triggers `toggleCycling`",
+      "fullTitle": "<ChromeBoisDomain /> has an event listener for clicks on the <canvas> element that triggers `toggleCycling`",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
